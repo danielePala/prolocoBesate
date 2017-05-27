@@ -1,0 +1,14 @@
+{
+	"success": 1,
+	"result": [
+		{
+                	"id": 1,
+                        "title": "Feston da Besà",
+                        "url": "/post/feston",
+                        "class": "event-important",
+                        "start": "0",
+                        "end":   "0"
+		}
+		
+	]
+}

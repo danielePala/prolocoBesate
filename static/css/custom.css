@@ -1,0 +1,126 @@
+#flex-container {
+	    display: flex; 
+}
+
+#notizie {
+    	flex-grow: 1;
+}
+
+#eventi {
+    	flex-grow: 0;
+    	min-width: 500px;
+    	margin-right: 100px;
+    	border-left: 1px solid rgba(0, 0, 0, 0.1);
+    	text-align: center;	
+	padding-left: 50px;
+}
+
+#eventi-pagina {
+    text-align: center;
+}
+
+.call-out {
+	height: 350px;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #FFFFFF;
+}
+
+.site-header .avatar {
+	height: 5em;
+	width: 5em;
+}
+
+.site-header .site-title {
+	font-size: 2em;
+	margin-top: 20px;
+}
+
+.site-nav {
+	margin-top: 25px;
+	font-size: 24px;
+}
+
+@media all and (max-width: 950px) {
+    	#eventi {
+        	display: none;
+    	}
+}
+
+.navbar-nav {
+	margin: 7.5px -15px;	
+}
+
+@media all and (min-width: 768px) {
+	.navbar-nav {
+		bottom: 0px;
+		position: absolute;
+		right: 10px;
+	}
+}
+
+.navbar-nav > li {
+	font-size: 1.3em;
+}
+
+.navbar-brand {
+	font-size: 36px;
+}
+
+#brand-text {
+	vertical-align: middle;
+}
+
+.navbar-toggle {
+	margin-top: 20px;
+}
+
+.content > .posts {
+	margin-top: 30px;
+}
+
+article {
+	margin-top: 30px;
+}
+
+.lista-contatti {
+	font-size: 24px;
+}
+
+.lista-contatti > li {
+	text-align: center;
+}
+
+@media all and (max-width: 450px) {
+    	#brand-text {
+        	font-size: 18px;
+    	}
+}
+
+.content {
+	display: flex;
+	position: relative;
+	top: 70px;
+	flex-flow: column;
+}
+
+.site-footer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+	text-align: center;
+}
+
+.galleries {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+figcaption {
+	text-align: center;
+}

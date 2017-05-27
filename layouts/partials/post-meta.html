@@ -1,0 +1,17 @@
+<p class="meta">
+    Pubblicato il {{ .Date.Day }}
+    {{ index $.Site.Data.l10n.months (printf "%d" .Date.Month) }}
+    {{ .Date.Year }}
+    
+
+    {{ if isset .Params "tags" -}}
+        {{ $tagsLen := len .Params.tags }}
+        {{ if gt $tagsLen 0 -}}
+            &middot; Tags:
+            {{ range $k, $v := (sort .Params.tags) -}}
+            <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize | lower }}">{{ . }}</a>
+            {{ if lt $k (sub $tagsLen 1) }}, {{ end }}
+            {{- end }}
+        {{- end }}
+    {{- end }}
+</p>

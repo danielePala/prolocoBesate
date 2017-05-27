@@ -1,0 +1,94 @@
+{{ define "main" -}}
+	<div class="section-title">
+		<h1 class="title">{{ .Title }}</h1>
+	</div>
+
+	<div class="galleries">
+  		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+    			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        			<img id="raccolta1" src="{{ $.Site.BaseURL }}/img/raccolta1/thumbnail.jpeg" itemprop="thumbnail" alt="Image description" />	
+      				<figcaption itemprop="caption description">Raccolta immagini 1</figcaption>                                    
+    			</figure>
+  		</div>
+  		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+    			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        			<img id="raccolta2" src="{{ $.Site.BaseURL }}/img/raccolta2/thumbnail.jpeg" itemprop="thumbnail" alt="Image description" />	
+      				<figcaption itemprop="caption description">Raccolta immagini 2</figcaption>                                    
+    			</figure>
+  		</div>
+	</div>
+
+	<!-- Root element of PhotoSwipe. Must have class pswp. -->
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    		<div class="pswp__bg"></div>
+    		<div class="pswp__scroll-wrap">
+        		<div class="pswp__container">
+            			<div class="pswp__item"></div>
+            			<div class="pswp__item"></div>
+            			<div class="pswp__item"></div>
+        		</div>
+        		<div class="pswp__ui pswp__ui--hidden">
+		        	<div class="pswp__top-bar">
+                			<div class="pswp__counter"></div>
+                			<button class="pswp__button pswp__button--close" title="Chiudi (Esc)"></button>
+                			<button class="pswp__button pswp__button--share" title="Condividi"></button>
+                			<button class="pswp__button pswp__button--fs" title="Schermo intero"></button>
+                			<button class="pswp__button pswp__button--zoom" title="Zoom"></button>
+                			<div class="pswp__preloader">
+                    				<div class="pswp__preloader__icn">
+                      					<div class="pswp__preloader__cut">
+                        					<div class="pswp__preloader__donut"></div>
+                      					</div>
+                    				</div>
+                			</div>
+            			</div>
+            			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                			<div class="pswp__share-tooltip"></div> 
+            			</div>
+            			<button class="pswp__button pswp__button--arrow--left" title="Precedente (freccia sinistra)">
+            			</button>
+            			<button class="pswp__button pswp__button--arrow--right" title="Successiva (freccia destra)">
+            			</button>
+            			<div class="pswp__caption">
+                			<div class="pswp__caption__center"></div>
+            			</div>
+        		</div>
+    		</div>
+	</div>
+
+	<!-- Photoswipe CSS files -->
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/photoswipe.css"> 
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/default-skin.css"> 
+	<!-- Photoswipe JS files -->
+	<script src="{{ .Site.BaseURL }}js/photoswipe.min.js"></script> 
+	<script src="{{ .Site.BaseURL }}js/photoswipe-ui-default.min.js"></script> 
+
+  	<script type="text/javascript">
+		var pswpElement = document.querySelectorAll('.pswp')[0];
+
+		// define options 
+		var options = {
+    			index: 0, // start at first slide
+				shareButtons: [
+    				{id:'facebook', label:'Condividi su Facebook', url:'https://www.facebook.com/sharer/sharer.php?u={{"{{"}}url{{"}}"}}'},
+    				{id:'twitter', label:'Tweet', url:'https://twitter.com/intent/tweet?text={{"{{"}}text{{"}}"}}&url={{"{{"}}url{{"}}"}}'},
+   				{id:'pinterest', label:'Pinterest', url:'http://www.pinterest.com/pin/create/button/?url={{"{{"}}url{{"}}"}}&media={{"{{"}}image_url{{"}}"}}&description={{"{{"}}text{{"}}"}}'},
+    				{id:'download', label:'Scarica immagine', url:'{{"{{"}}raw_image_url{{"}}"}}', download:true}
+			]
+		};
+
+		$("figure > img").on("click", function() {
+			var nome = $(this).attr("id");
+			// build items array
+			$.getJSON("{{ $.Site.BaseURL }}data/" + nome + ".json", function(data) {
+				var items = data;
+				// Initializes and opens PhotoSwipe	
+				var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+				gallery.init();
+			});
+		});
+  	</script>
+{{- end }}
+
+
+

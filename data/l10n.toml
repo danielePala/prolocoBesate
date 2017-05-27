@@ -1,0 +1,50 @@
+# Pagination buttons
+previous = "Prec"
+next = "Succ"
+
+# Post list
+readingTime = "min. di lettura" # e.g. 3 minute read
+continueReading = "Continua la lettura"
+
+# 404.html
+pageNotFoundTitle = "Pagina non trovata"
+pageNotFoundSubtitle = "Spiacenti, la pagina richiesta non esiste."
+
+# Social networks
+# Text will beshown while hovering the navigation icons
+rssSubscribe  = "Sottoscrivi"
+email = "Email"
+behance = "Behance"
+bitbucket = "Bitbucket"
+dribbble = "Dribbble"
+facebook = "Facebook"
+flickr = "Flickr"
+github = "GitHub"
+googleplus = "Google+"
+instagram = "Instagram"
+linkedin = "LinkedIn"
+pinterest = "Pinterest"
+reddit = "Reddit"
+soundcloud = "SoundCloud"
+stackexchange = "Stack Exchange"
+steam = "Steam"
+tumblr = "Tumblr"
+twitter = "Twitter"
+wordpress = "WordPress"
+youtube = "YouTube"
+gitlab = "Gitlab"
+trello = "Trello"
+
+[months]
+1 = "gennaio"
+2 = "febbraio"
+3 = "marzo"
+4 = "aprile"
+5 = "maggio"
+6 = "giugno"
+7 = "luglio"
+8 = "agosto"
+9 = "settembre"
+10 = "ottobre"
+11 = "novembre"
+12 = "dicembre"

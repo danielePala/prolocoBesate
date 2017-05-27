@@ -1,0 +1,57 @@
+	{{ partial "head.html" . }}
+	<body>
+		{{ partial "nav.html" . }}
+
+		<div class="content">
+			<div class="home">
+
+				{{ if .Site.Params.headerText }}
+				<div class="call-out" style="background-image: url('{{ .Site.BaseURL }}/img/{{ .Site.Params.headerImage }}')">
+					{{ .Site.Params.headerText | markdownify }}
+				</div>
+				{{ end }}
+
+				<div id="flex-container">
+					<div id="notizie">
+						<h1 style="text-align: center;">SITO IN FASE DI COSTRUZIONE</h1>
+						{{ partial "post-list.html" . }}
+						{{ partial "pagination.html" . }}
+					</div>
+					<div id="eventi">
+						<h3>Calendario eventi - <span id="mese-eventi"></span></h3>
+						<div class="btn-group">
+							<button class="btn btn-primary" data-calendar-nav="prev"><< Prec.</button>
+							<button class="btn btn-default" data-calendar-nav="today">Attuale</button>
+							<button class="btn btn-primary" data-calendar-nav="next">Succ. >></button>
+						</div>
+						<div id="calendario-eventi"></div>
+					</div>
+				</div>
+
+				{{ partial "footer.html" . }}
+
+			</div>
+		</div>
+	</body>
+  <script type="text/javascript">
+            var calendar = $("#calendario-eventi").calendar(
+            {
+                tmpl_path: "/tmpls/",
+                events_source: "{{ $.Site.BaseURL }}data/eventi.json",
+                view: 'month',
+		language: 'it-IT',
+		weekbox: false,
+		onAfterViewLoad: function(view) {
+			$('#mese-eventi').text(this.getTitle());
+		}
+            });
+
+	$('.btn-group button[data-calendar-nav]').each(function() {
+		var $this = $(this);
+		$this.click(function() {
+			calendar.navigate($this.data('calendar-nav'));
+		});
+	});
+	calendar.navigate("today");
+  </script>
+</html>
