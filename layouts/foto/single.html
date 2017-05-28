@@ -72,7 +72,7 @@
 		$("figure > img").on("click", function() {
 			var nome = $(this).attr("id");
 			// build items array
-			$.getJSON("{{ $.Site.BaseURL }}data/" + nome + ".json", function(data) {
+			$.getJSON("/data/" + nome + ".json", function(data) {
 				var items = data;
 				// Initializes and opens PhotoSwipe	
 				var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
