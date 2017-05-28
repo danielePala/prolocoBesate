@@ -10,7 +10,9 @@
 	{{ .Hugo.Generator }}
 
 	{{ "<!-- CSS -->" | safeHTML }}
+	<!-- calendar css -->	
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css">
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/calendar.min.css">	
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
 	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css">
 
@@ -29,6 +31,11 @@
 	{{ "<!-- Google Fonts -->" | safeHTML }}
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css">
 
+  	<!-- calendar scripts -->
   	<script type="text/javascript" src="{{ .Site.BaseURL }}js/jquery.min.js"></script>
   	<script type="text/javascript" src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="{{ .Site.BaseURL }}js/underscore-min.js"></script>
+  	<script type="text/javascript" src="{{ .Site.BaseURL }}js/language/it-IT.js"></script>
+  	<script type="text/javascript" src="{{ .Site.BaseURL }}js/calendar.js"></script>
+	<script type="text/javascript" src="{{ .Site.BaseURL }}js/eventi.js"></script>	
 </head>
