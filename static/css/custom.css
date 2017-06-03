@@ -66,6 +66,12 @@
 	}
 }
 
+@media all and (min-width: 1900px) {
+	.call-out {
+		height: 550px;
+	}
+}
+
 .navbar-nav > li {
 	font-size: 1.3em;
 }
