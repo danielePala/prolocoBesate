@@ -108,6 +108,9 @@ article {
     	#brand-text {
         	font-size: 18px;
     	}
+	.cal-month-box .cal-day-today span[data-cal-date] {
+		font-size: 1.2em;
+	}
 }
 
 .content {
