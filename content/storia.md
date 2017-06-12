@@ -18,6 +18,11 @@ Durante il Quattrocento, Besate venne colpita da due ondate dell'epidemia di pes
 
 # [Chiesetta-Santuario dello Zerbo](http://www.touringclub.it/destinazione/141221/chiesetta-santuario-dello-zerbo) - Località Lo Zerbo Besate (MI)
 
+<figure>
+    <img class="article-img" src="/img/storia/chiesetta_zerbo.jpg" alt="Chiesetta della Madonna dello Zerbo" title="Chiesetta della Madonna dello Zerbo">
+    <figcaption>Chiesetta della Madonna dello Zerbo</figcaption>
+</figure>
+
 La chiesetta della Madonna dello Zerbo viene fondata nel 1630 nei pressi della riva sinistra del Ticino, sul luogo dove, a seguito della peste, sorse un lazzaretto. All'interno è custodita l'immagine sacra da cui la chiesetta prende il nome: una Madonna col Bambino, affresco del '500, staccato e successivamente incorniciato per farne pala d'altare, quale essa è tutt'oggi. Si tratta di un'immagine sacra molto cara alla popolazione locale, in quanto protagonista di un evento miracoloso, celebrato ogni anno con una grande festa di paese. La chiesa è interamente decorata, al proprio interno, da affreschi datati 1716-19 del milanese Francesco Porro. Attigua alla chiesa sorge una villa della stessa proprietà, realizzata su progetto del famoso architetto Piero Portaluppi nel 1966; la villa, in quanto abitazione privata, non è visitabile.  
 
 # Il Seicento ed il Settecento
@@ -42,7 +47,10 @@ Nel febbraio del [1605](https://it.wikipedia.org/wiki/1605) Besate venne visitat
 Il campanile della chiesa risale alla fine del Seicento, mentre gli affreschi interni sono risalenti agli ultimi anni del Settecento, mentre l'altare maggiore venne realizzato nel [1816](https://it.wikipedia.org/wiki/1816).  
 Nel 1900  la chiese viene riaffrescata e decorata  da Luigi Migliavacca di Binasco. Il suo stile pittorico, dopo un'iniziale adesione alle formule del [realismo lombardo](https://it.wikipedia.org/wiki/Realismo_esistenziale_(pittura)) si è diretto verso un eclettismo stilistico di recupero [manierista](https://it.wikipedia.org/wiki/Manierismo), neo-cinquecentesco, [neo-barocco](https://it.wikipedia.org/wiki/Architettura_neobarocca) e [neo-classico](https://it.wikipedia.org/wiki/Neoclassicismo), scevro da influenze [moderniste](https://it.wikipedia.org/wiki/Modernismo).  
 
-<img class="article-img" src="/img/storia/san_michele.jpeg" alt="Affreschi e decorazioni di Luigi Migliavacca nella chiesa di S. Michele Arcangelo di Besate" title="Affreschi e decorazioni di Luigi Migliavacca nella chiesa di S. Michele Arcangelo di Besate">
+<figure>
+    <img class="article-img" src="/img/storia/san_michele.jpeg" alt="Affreschi e decorazioni di Luigi Migliavacca nella chiesa di S. Michele Arcangelo di Besate" title="Affreschi e decorazioni di Luigi Migliavacca nella chiesa di S. Michele Arcangelo di Besate">
+    <figcaption>Affreschi e decorazioni di Luigi Migliavacca nella chiesa di S. Michele Arcangelo di Besate</figcaption>
+</figure>
 
 # Persone legate a Besate
 
