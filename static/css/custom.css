@@ -1,3 +1,11 @@
+body {
+    font-size: 1.8em;
+}
+
+.cal-cell1 {
+    font-size: 0.7em;
+}
+
 #flex-container {
 	    display: flex; 
 }
@@ -42,7 +50,7 @@
 	font-size: 24px;
 }
 
-@media all and (max-width: 950px) {
+@media all and (max-width: 1050px) {
     	#eventi {
         	display: none;
     	}
@@ -118,10 +126,14 @@ img.article-img {
 	text-align: center;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1000px) {
     	#brand-text {
         	font-size: 0.6em;
     	}
+	.navbar-nav > li {
+	    font-size: 1.0em;
+	}
+	
 	.cal-month-box .cal-day-today span[data-cal-date] {
 		font-size: 1.2em;
 	}
@@ -137,6 +149,10 @@ img.article-img {
 .site-footer {
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.site-footer > p {
+    text-align: center;
 }
 
 .section-title {

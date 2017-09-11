@@ -10,7 +10,7 @@ $(function() {
 		$('#mese-eventi').text(this.getTitle());
 	    }
 	});
-    var mediaQueryList = window.matchMedia("(max-width: 550px)");
+    var mediaQueryList = window.matchMedia("(max-width: 650px)");
     mediaQueryList.addListener(handleSizeChange);
     $('.btn-group button[data-calendar-nav]').each(function() {
 	var $this = $(this);
