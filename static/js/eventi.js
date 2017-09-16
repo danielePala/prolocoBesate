@@ -10,7 +10,7 @@ $(function() {
 		$('#mese-eventi').text(this.getTitle());
 	    }
 	});
-    var mediaQueryList = window.matchMedia("(max-width: 650px)");
+    var mediaQueryList = window.matchMedia("(max-width: 650px) and (max-resolution: 96dpi), (max-width: 1300px) and (min-resolution: 192dpi)");
     mediaQueryList.addListener(handleSizeChange);
     $('.btn-group button[data-calendar-nav]').each(function() {
 	var $this = $(this);
@@ -20,6 +20,7 @@ $(function() {
 	});
     });
     calendar.navigate("today");
+    handleSizeChange();
     function handleSizeChange(evt) {
 	if (mediaQueryList.matches) {
 	    $(".cal-row-head > .cal-cell1").text(function(i, oldText) {
