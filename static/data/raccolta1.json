@@ -1,13 +1,15 @@
 [
 	{
-        	"src": "/img/raccolta1/img01.jpeg",
-        	"w": "640",
-        	"h": "426"
+            "src": "/img/raccolta1/img01.jpeg",
+            "w": "640",
+            "h": "426",
+	    "title": "Cascina Caremma" 
     	},
     	{
-        	"src": "/img/raccolta1/img02.jpeg",
-        	"w": "1024",
-        	"h": "768"
+            "src": "/img/raccolta1/img02.jpeg",
+            "w": "1024",
+            "h": "768",
+	    "title": "Cascina dell'acqua" 
     	}
 ]
 

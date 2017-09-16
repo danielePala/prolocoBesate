@@ -1,0 +1,21 @@
+[
+    {
+        "src": "/img/vedute/veduta_aerea.jpg",
+        "w": "604",
+        "h": "401",
+	"title": "Veduta aerea di Besate" 
+    },
+    {
+        "src": "/img/vedute/foto-aerea-roadmap-besate.png",
+        "w": "1130",
+        "h": "1130",
+	"title": "Mappa geografica di Besate" 
+    },
+    {
+        "src": "/img/vedute/LavatoioBesate.jpg",
+        "w": "747",
+        "h": "560",
+	"title": "Il lavatoio di Besate" 
+    }
+]
+
