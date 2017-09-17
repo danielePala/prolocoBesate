@@ -16,7 +16,7 @@ Si ha ragione di credere che le origini di Besate siano da ascrivere al periodo 
 La stessa fondazione della chiesa parrocchiale di San Michele, è con tutta probabilità di epoca medievale e ascrivibile alla famiglia autoctona dei Da Besate. La prima testimonianza documentale dell'esistenza del paese, ad ogni modo, risale all'anno 1000 quando troviamo indicato l'abitato col nome di Besade. Nel [1378](https://it.wikipedia.org/wiki/1378) [Gian Galeazzo Visconti](https://it.wikipedia.org/wiki/Gian_Galeazzo_Visconti), signore di Milano, stabilì che il comune di Besate che si era costituito durante il XII secolo, dovesse rientrare tra le città dipendenti dall'Ufficio delle Gabelle di [Pavia](https://it.wikipedia.org/wiki/Pavia) per il pagamento della tassa del sale.  
 Durante il Quattrocento, Besate venne colpita da due ondate dell'epidemia di peste che colpì l'intero [Ducato di Milano](https://it.wikipedia.org/wiki/Ducato_di_Milano): quella del [1420](https://it.wikipedia.org/wiki/1420), documentata da un registro visconteo, e la seconda del [1472](https://it.wikipedia.org/wiki/1472) documentata anche in modo dettagliato in una lettera inviata dal Consiglio Segreto al duca [Galeazzo Maria Sforza](https://it.wikipedia.org/wiki/Galeazzo_Maria_Sforza). Per l'occasione in questa seconda emergenza venne impiantato all'esterno del paese un piccolo lazzaretto costituito da capanne di paglia dove ricoverare gli appestati.  
 
-# [Chiesetta-Santuario dello Zerbo](http://www.touringclub.it/destinazione/141221/chiesetta-santuario-dello-zerbo) - Località Lo Zerbo Besate (MI)
+# [Chiesetta-Santuario dello Zerbo](http://www.touringclub.it/destinazione/141221/chiesetta-santuario-dello-zerbo)
 
 <figure>
     <img class="article-img" src="/img/storia/chiesetta_zerbo.jpg" alt="Chiesetta della Madonna dello Zerbo" title="Chiesetta della Madonna dello Zerbo">
@@ -60,9 +60,9 @@ Nel 1900  la chiese viene riaffrescata e decorata  da Luigi Migliavacca di Binas
 
 * [Napoleone Bertoglio Pisani](https://it.wikipedia.org/wiki/Napoleone_Bertoglio_Pisani) (1845-1912), scrittore, storico e archeologo locale.  
 
-* Renato Migliavacca è stato uno scrittore e militare italiano, autore di libri di storia militare, storia della scienza, saggistica scientifica.  Nato a Besate il : 20 ottobre 1921.  
+* Renato Migliavacca è stato uno scrittore e militare italiano, autore di libri di storia militare, storia della scienza, saggistica scientifica. Nato a Besate il 20 ottobre 1921.  
 
-* I Visconti di Modrone con le numerose testimonianze , vedi Palazzo Visconti – Villa Pizzo.  
+* I Visconti di Modrone con le numerose testimonianze, vedi Palazzo Visconti – Villa Pizzo.  
 
 
 
