@@ -133,9 +133,11 @@ img.article-img {
 	.navbar-nav > li {
 	    font-size: 1.0em;
 	}
-	
 	.cal-month-box .cal-day-today span[data-cal-date] {
 		font-size: 1.2em;
+	}
+	section > h1 {
+	    font-size: 2em;
 	}
 }
 
