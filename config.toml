@@ -14,7 +14,7 @@ paginate = 10
 	author = "Daniele Pala"
 	description = "Sito della pro loco di Besate"
 	# The keywords will be added as a meta tag. Delimit them with a comma.
-	keywords = ""
+	keywords = "pro,loco,Besate,proloco"
 	# Either show custom avatar on the top
 	# left by adding the filename in below
 	avatar = "img/stemma.png"
