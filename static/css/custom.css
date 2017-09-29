@@ -7,20 +7,20 @@ body {
 }
 
 #flex-container {
-	    display: flex; 
+    display: flex; 
 }
 
 #notizie {
-    	flex-grow: 1;
+    flex-grow: 1;
 }
 
 #eventi {
-    	flex-grow: 0;
-    	min-width: 500px;
-    	margin-right: 100px;
-    	border-left: 1px solid rgba(0, 0, 0, 0.1);
-    	text-align: center;	
-	padding-left: 50px;
+    flex-grow: 0;
+    min-width: 500px;
+    margin-right: 100px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;	
+    padding-left: 50px;
 }
 
 #eventi-pagina {
@@ -28,124 +28,127 @@ body {
 }
 
 .call-out {
-	height: 140px;
-	background-size: auto 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-color: #FFFFFF;
+    height: 140px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
 }
 
 .site-header .avatar {
-	height: 5em;
-	width: 5em;
+    height: 5em;
+    width: 5em;
 }
 
 .site-header .site-title {
-	font-size: 2em;
-	margin-top: 20px;
+    font-size: 2em;
+    margin-top: 20px;
 }
 
 .site-nav {
-	margin-top: 25px;
-	font-size: 24px;
+    margin-top: 25px;
+    font-size: 24px;
 }
 
 @media all and (max-width: 1050px) {
-    	#eventi {
-        	display: none;
-    	}
+    #eventi {
+        display: none;
+    }
 }
 
 .navbar-nav {
-	margin: 7.5px -15px;	
+    margin: 7.5px -15px;	
 }
 
 @media all and (min-width: 768px) and (max-resolution: 96dpi) {
-	.navbar-nav {
-		bottom: 0px;
-		position: absolute;
-		right: 10px;
-	}
+    .navbar-nav {
+	bottom: 0px;
+	position: absolute;
+	right: 10px;
+    }
 }
 
 @media all and (min-width: 680px) and (max-resolution: 96dpi) {
-	.call-out {
-		height: 350px;
-	}
+    .call-out {
+	height: 350px;
+    }
 }
 
 @media all and (min-width: 2100px) and (max-resolution: 96dpi) {
-	.call-out {
-		height: 550px;
-	}
+    .call-out {
+	height: 550px;
+    }
 }
 
 .navbar-nav > li {
-	font-size: 1.3em;
+    font-size: 1.3em;
 }
 
 .navbar-brand {
-	font-size: 36px;
+    font-size: 36px;
 }
 
 #brand-text {
-	vertical-align: middle;
+    vertical-align: middle;
 }
 
 .navbar-toggle {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 .content > .posts {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 article {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 p {
-	text-align: justify;
+    text-align: justify;
 }
 
 ul {
-	list-style-position: unset;
+    list-style-position: unset;
 }
 
 img.article-img {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .lista-contatti {
-	font-size: 24px;
+    font-size: 24px;
 }
 
 .lista-contatti > li {
-	text-align: center;
+    text-align: center;
 }
 
 @media all and (max-width: 1000px) and (max-resolution: 96dpi), all and (max-width: 2000px) and (min-resolution: 192dpi) {
-    	#brand-text {
-        	font-size: 0.6em;
-    	}
-	.navbar-nav > li {
-	    font-size: 1.0em;
-	}
-	.cal-month-box .cal-day-today span[data-cal-date] {
-		font-size: 1.2em;
-	}
-	section > h1 {
-	    font-size: 2em;
-	}
+    #brand-text {
+        font-size: 0.6em;
+    }
+    .navbar-nav > li {
+	font-size: 1.0em;
+    }
+    .cal-month-box .cal-day-today span[data-cal-date] {
+	font-size: 1.2em;
+    }
+    section > h1 {
+	font-size: 2em;
+    }
+    h1.title {
+	font-size: 2em;
+    }
 }
 
 .content {
-	display: flex;
-	position: relative;
-	top: 70px;
-	flex-flow: column;
+    display: flex;
+    position: relative;
+    top: 70px;
+    flex-flow: column;
 }
 
 .site-footer {
@@ -158,16 +161,20 @@ img.article-img {
 }
 
 .section-title {
-	text-align: center;
+    text-align: center;
 }
 
 .galleries {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 figcaption {
-	text-align: center;
+    text-align: center;
+}
+
+.fig-nomargin {
+    margin: unset;
 }
