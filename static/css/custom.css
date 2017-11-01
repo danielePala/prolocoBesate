@@ -142,6 +142,10 @@ img.article-img {
     h1.title {
 	font-size: 2em;
     }
+
+    .post-teaser h1 {
+	font-size: 2em;
+    }
 }
 
 .content {
@@ -173,6 +177,10 @@ img.article-img {
 
 figcaption {
     text-align: center;
+}
+
+#cal-slide-content a.event-item {
+    color: #1ABC9C;
 }
 
 .fig-nomargin {
