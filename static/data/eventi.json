@@ -8,7 +8,14 @@
                         "class": "event-important",
                         "start": "1510444800000",
                         "end":   "1510444800000"
-		}
-		
+		},
+		{
+                	"id": 2,
+                        "title": "Festeggiamo assieme il Natale",
+                        "url": "/post/natale2017",
+                        "class": "event-important",
+                        "start": "1513468800000",
+                        "end":   "1513468800000"
+		}		
 	]
 }
