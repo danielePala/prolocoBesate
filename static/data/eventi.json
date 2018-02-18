@@ -24,6 +24,14 @@
             "class": "event-important",
             "start": "1518825600000",
             "end":   "1518825600000"
+	},
+	{
+            "id": 4,
+            "title": "Marcia di primavera nel Parco del Ticino",
+            "url": "/post/marcia2018",
+            "class": "event-important",
+            "start": "1524960000000",
+            "end":   "1524960000000"
 	}		
     ]
 }
