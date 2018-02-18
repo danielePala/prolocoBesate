@@ -17,10 +17,14 @@ $(function() {
 	$this.click(function() {
 	    calendar.navigate($this.data('calendar-nav'));
 	    handleSizeChange();
+            // color in red the days with events
+            $(".cal-cell").has(".events-list").css("background-color", "#fae3e3");
 	});
     });
     calendar.navigate("today");
     handleSizeChange();
+    // color in red the days with events
+    $(".cal-cell").has(".events-list").css("background-color", "#fae3e3");
     function handleSizeChange(evt) {
 	if (mediaQueryList.matches) {
 	    $(".cal-row-head > .cal-cell1").text(function(i, oldText) {
